@@ -1,0 +1,12 @@
+name: Hello World
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 打印一句话
+        run: echo "Hello from GitHub Actions, Wei!"
+      - name: 显示日期
+        run: date
